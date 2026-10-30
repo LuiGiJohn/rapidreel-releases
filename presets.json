@@ -6,6 +6,7 @@
   {
    "id": "builtin-soft-glow",
    "name": "Soft Glow",
+   "category": "Cinematic",
    "look": {
     "mistStyle": "black",
     "mistAmount": 45,
@@ -19,6 +20,7 @@
   {
    "id": "builtin-cine-halation",
    "name": "Cine Halation",
+   "category": "Cinematic",
    "look": {
     "skinProtect": 45,
     "saturation": -10,
@@ -63,6 +65,7 @@
   {
    "id": "builtin-print-film",
    "name": "Print Film",
+   "category": "Cinematic",
    "look": {
     "skinProtect": 45,
     "mistStyle": "black",
@@ -153,6 +156,7 @@
   {
    "id": "builtin-teal-orange",
    "name": "Teal & Orange",
+   "category": "Cinematic",
    "look": {
     "contrast": 19,
     "vibrance": 9,
@@ -227,6 +231,7 @@
   {
    "id": "builtin-faded-matte",
    "name": "Faded Matte",
+   "category": "Cinematic",
    "look": {
     "contrast": -12,
     "saturation": -15,
@@ -283,6 +288,7 @@
   {
    "id": "builtin-dreamy-bloom",
    "name": "Dreamy Bloom",
+   "category": "Cinematic",
    "look": {
     "whites": -28,
     "mistStyle": "white",
@@ -299,6 +305,7 @@
   {
    "id": "builtin-night-neon",
    "name": "Night Neon",
+   "category": "Cinematic",
    "look": {
     "glowAmount": 64,
     "glowThreshold": 28,
@@ -313,6 +320,7 @@
   {
    "id": "builtin-mono-contrast",
    "name": "Mono Contrast",
+   "category": "Cinematic",
    "look": {
     "saturation": -100,
     "contrast": 37,
@@ -324,6 +332,7 @@
   {
    "id": "builtin-pastel-forest",
    "name": "Pastel Forest",
+   "category": "Nature",
    "look": {
     "tint": -1.5,
     "polarizer": 25,
@@ -647,6 +656,7 @@
   {
    "id": "builtin-mist-forest",
    "name": "Mist Forest",
+   "category": "Nature",
    "look": {
     "tint": 3.6,
     "polarizer": 25,
@@ -971,6 +981,7 @@
   {
    "id": "builtin-golden-trail",
    "name": "Golden Trail",
+   "category": "Nature",
    "look": {
     "tint": -1.5,
     "polarizer": 25,
@@ -1293,6 +1304,7 @@
   {
    "id": "builtin-slate-trail",
    "name": "Slate Trail",
+   "category": "Nature",
    "look": {
     "tint": -3.6,
     "polarizer": 25,
@@ -1616,6 +1628,7 @@
   {
    "id": "builtin-amber-wild",
    "name": "Amber Wild",
+   "category": "Nature",
    "look": {
     "polarizer": 25,
     "tint": 6.6,
@@ -1939,6 +1952,7 @@
   {
    "id": "builtin-blue-wild",
    "name": "Blue Wild",
+   "category": "Nature",
    "look": {
     "polarizer": 25,
     "tint": 0.9,
@@ -2262,6 +2276,7 @@
   {
    "id": "builtin-amber-street",
    "name": "Amber Street",
+   "category": "Streets",
    "look": {
     "vibrance": 2.5,
     "temperature": 14.4,
@@ -2580,6 +2595,7 @@
   {
    "id": "builtin-concrete-street",
    "name": "Concrete Street",
+   "category": "Streets",
    "look": {
     "vibrance": -5,
     "temperature": -12,
@@ -2898,6 +2914,7 @@
   {
    "id": "builtin-sodium-street",
    "name": "Sodium Street",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 0,
@@ -3211,6 +3228,7 @@
   {
    "id": "builtin-steel-street",
    "name": "Steel Street",
+   "category": "Streets",
    "look": {
     "blacks": -3,
     "mistAmount": 0,
@@ -3525,6 +3543,7 @@
   {
    "id": "builtin-soft-editorial",
    "name": "Soft Editorial",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 0,
@@ -3759,6 +3778,7 @@
   {
    "id": "builtin-cool-editorial",
    "name": "Cool Editorial",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 0,
@@ -3993,6 +4013,7 @@
   {
    "id": "builtin-metro-day",
    "name": "Metro Day",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 25,
@@ -4306,18 +4327,20 @@
   {
    "id": "builtin-metro-night",
    "name": "Metro Night",
+   "category": "Streets",
    "look": {
-    "shadows": -6,
+    "shadows": -2,
+    "blacks": -10,
     "mistStyle": "black",
-    "mistAmount": 30,
+    "mistAmount": 12,
     "polarizer": 0,
     "vibrance": -5,
     "tint": 3,
-    "exposure": -0.5,
-    "contrast": -8.2,
-    "highlights": -30,
-    "whites": -10,
-    "saturation": -21,
+    "exposure": -0.15,
+    "contrast": 8,
+    "highlights": -10,
+    "whites": 5,
+    "saturation": -4,
     "temperature": 12,
     "grainAmount": 15,
     "colorGrading": {
@@ -4621,6 +4644,7 @@
   {
    "id": "builtin-golden-voyage",
    "name": "Golden Voyage",
+   "category": "Travel",
    "look": {
     "blacks": -14,
     "polarizer": 30,
@@ -4937,6 +4961,7 @@
   {
    "id": "builtin-blue-voyage",
    "name": "Blue Voyage",
+   "category": "Travel",
    "look": {
     "blacks": -14,
     "polarizer": 30,
@@ -5254,6 +5279,7 @@
   {
    "id": "builtin-sunlit-escape",
    "name": "Sunlit Escape",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "toneMapper": "basic",
@@ -5580,6 +5606,7 @@
   {
    "id": "builtin-azure-escape",
    "name": "Azure Escape",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "toneMapper": "basic",
@@ -5907,6 +5934,7 @@
   {
    "id": "builtin-golden-coast",
    "name": "Golden Coast",
+   "category": "Travel",
    "look": {
     "tint": -3,
     "polarizer": 30,
@@ -6232,6 +6260,7 @@
   {
    "id": "builtin-teal-coast",
    "name": "Teal Coast",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "temperature": -7,
@@ -6556,6 +6585,7 @@
   {
    "id": "builtin-warm-wanderer",
    "name": "Warm Wanderer",
+   "category": "Travel",
    "look": {
     "exposure": -0.1,
     "polarizer": 30,
@@ -6781,6 +6811,7 @@
   {
    "id": "builtin-clean-wanderer",
    "name": "Clean Wanderer",
+   "category": "Travel",
    "look": {
     "exposure": -0.1,
     "polarizer": 30,
@@ -7006,6 +7037,7 @@
   {
    "id": "builtin-bright-journey",
    "name": "Bright Journey",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "toneMapper": "basic",
@@ -7332,6 +7364,7 @@
   {
    "id": "builtin-moody-journey",
    "name": "Moody Journey",
+   "category": "Travel",
    "look": {
     "mistStyle": "black",
     "mistAmount": 20,
@@ -7660,6 +7693,7 @@
   {
    "id": "builtin-warm-film-diary",
    "name": "Warm Film Diary",
+   "category": "Diary",
    "look": {
     "mistStyle": "black",
     "mistAmount": 20,
@@ -7985,6 +8019,7 @@
   {
    "id": "builtin-soft-film-diary",
    "name": "Soft Film Diary",
+   "category": "Diary",
    "look": {
     "mistStyle": "black",
     "mistAmount": 20,
@@ -8310,6 +8345,7 @@
   {
    "id": "builtin-golden-diary",
    "name": "Golden Diary",
+   "category": "Diary",
    "look": {
     "mistStyle": "gold",
     "mistAmount": 12,
@@ -8637,6 +8673,7 @@
   {
    "id": "builtin-teal-diary",
    "name": "Teal Diary",
+   "category": "Diary",
    "look": {
     "mistStyle": "black",
     "mistAmount": 12,
@@ -8964,6 +9001,7 @@
   {
    "id": "builtin-forest-neutral",
    "name": "Forest Neutral",
+   "category": "Nature",
    "look": {
     "tint": 0,
     "polarizer": 25,
@@ -9287,6 +9325,7 @@
   {
    "id": "builtin-trail-neutral",
    "name": "Trail Neutral",
+   "category": "Nature",
    "look": {
     "tint": -1.8,
     "polarizer": 25,
@@ -9609,6 +9648,7 @@
   {
    "id": "builtin-wild-neutral",
    "name": "Wild Neutral",
+   "category": "Nature",
    "look": {
     "polarizer": 25,
     "tint": -1.8,
@@ -9932,6 +9972,7 @@
   {
    "id": "builtin-street-neutral",
    "name": "Street Neutral",
+   "category": "Streets",
    "look": {
     "vibrance": 2.5,
     "temperature": 0,
@@ -10250,6 +10291,7 @@
   {
    "id": "builtin-city-neutral",
    "name": "City Neutral",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 0,
@@ -10563,6 +10605,7 @@
   {
    "id": "builtin-editorial-neutral",
    "name": "Editorial Neutral",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 0,
@@ -10797,6 +10840,7 @@
   {
    "id": "builtin-metro-neutral",
    "name": "Metro Neutral",
+   "category": "Streets",
    "look": {
     "mistAmount": 0,
     "polarizer": 25,
@@ -11110,6 +11154,7 @@
   {
    "id": "builtin-voyage-neutral",
    "name": "Voyage Neutral",
+   "category": "Travel",
    "look": {
     "blacks": -14,
     "polarizer": 30,
@@ -11426,6 +11471,7 @@
   {
    "id": "builtin-escape-neutral",
    "name": "Escape Neutral",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "toneMapper": "basic",
@@ -11752,6 +11798,7 @@
   {
    "id": "builtin-coast-neutral",
    "name": "Coast Neutral",
+   "category": "Travel",
    "look": {
     "tint": -1.8,
     "polarizer": 30,
@@ -12077,6 +12124,7 @@
   {
    "id": "builtin-wanderer-neutral",
    "name": "Wanderer Neutral",
+   "category": "Travel",
    "look": {
     "exposure": -0.1,
     "polarizer": 30,
@@ -12302,6 +12350,7 @@
   {
    "id": "builtin-journey-neutral",
    "name": "Journey Neutral",
+   "category": "Travel",
    "look": {
     "polarizer": 30,
     "toneMapper": "basic",
@@ -12628,6 +12677,7 @@
   {
    "id": "builtin-film-diary-neutral",
    "name": "Film Diary Neutral",
+   "category": "Diary",
    "look": {
     "mistStyle": "black",
     "mistAmount": 20,
@@ -12953,6 +13003,7 @@
   {
    "id": "builtin-diary-neutral",
    "name": "Diary Neutral",
+   "category": "Diary",
    "look": {
     "mistStyle": "gold",
     "mistAmount": 12,
