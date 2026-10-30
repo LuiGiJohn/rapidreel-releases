@@ -1,0 +1,13281 @@
+{
+ "schema": 1,
+ "minAppVersion": "0.2.3",
+ "appVersion": "0.2.3",
+ "presets": [
+  {
+   "id": "builtin-soft-glow",
+   "name": "Soft Glow",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 45,
+    "glowAmount": 22,
+    "glowRadius": 60,
+    "glowThreshold": 26,
+    "highlights": -12,
+    "contrast": -5
+   }
+  },
+  {
+   "id": "builtin-cine-halation",
+   "name": "Cine Halation",
+   "look": {
+    "skinProtect": 45,
+    "saturation": -10,
+    "whites": -20,
+    "highlights": -25,
+    "mistStyle": "black",
+    "mistAmount": 30,
+    "halationAmount": 47,
+    "halationRadius": 45,
+    "halationThreshold": 74,
+    "glowAmount": 18,
+    "contrast": 14,
+    "temperature": 4,
+    "grainAmount": 18,
+    "grainSize": 30,
+    "colorGrading": {
+     "shadows": {
+      "hue": 195,
+      "saturation": 72,
+      "luminance": -2
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 38,
+      "saturation": 28,
+      "luminance": -4
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 30,
+     "balance": 46
+    }
+   }
+  },
+  {
+   "id": "builtin-print-film",
+   "name": "Print Film",
+   "look": {
+    "skinProtect": 45,
+    "mistStyle": "black",
+    "mistAmount": 20,
+    "contrast": 21,
+    "saturation": -4,
+    "blacks": 14,
+    "halationAmount": 35,
+    "grainAmount": 25,
+    "grainRoughness": 60,
+    "vignetteAmount": -32,
+    "colorGrading": {
+     "shadows": {
+      "hue": 190,
+      "saturation": 100,
+      "luminance": -5
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 28,
+      "luminance": -2
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 24,
+     "balance": 76
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 14
+      },
+      {
+       "x": 64,
+       "y": 58
+      },
+      {
+       "x": 192,
+       "y": 202
+      },
+      {
+       "x": 255,
+       "y": 245
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-teal-orange",
+   "name": "Teal & Orange",
+   "look": {
+    "contrast": 19,
+    "vibrance": 9,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 100,
+      "luminance": -4
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 32,
+      "saturation": 100,
+      "luminance": -16
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 100,
+     "balance": -44
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 9,
+      "luminance": 33
+     },
+     "yellows": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": 1,
+      "saturation": -20,
+      "luminance": -18
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -2,
+      "saturation": 21,
+      "luminance": -5
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    }
+   }
+  },
+  {
+   "id": "builtin-faded-matte",
+   "name": "Faded Matte",
+   "look": {
+    "contrast": -12,
+    "saturation": -15,
+    "grainAmount": 20,
+    "temperature": 1,
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 34
+      },
+      {
+       "x": 128,
+       "y": 132
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-dreamy-bloom",
+   "name": "Dreamy Bloom",
+   "look": {
+    "whites": -28,
+    "mistStyle": "white",
+    "mistAmount": 20,
+    "glowAmount": 65,
+    "glowRadius": 80,
+    "glowThreshold": 10,
+    "dehaze": -20,
+    "highlights": -14,
+    "temperature": 6,
+    "saturation": -21
+   }
+  },
+  {
+   "id": "builtin-night-neon",
+   "name": "Night Neon",
+   "look": {
+    "glowAmount": 64,
+    "glowThreshold": 28,
+    "halationAmount": 38,
+    "halationThreshold": 55,
+    "vibrance": 26,
+    "temperature": -2,
+    "contrast": 11,
+    "clarity": 34
+   }
+  },
+  {
+   "id": "builtin-mono-contrast",
+   "name": "Mono Contrast",
+   "look": {
+    "saturation": -100,
+    "contrast": 37,
+    "clarity": 26,
+    "grainAmount": 30,
+    "vignetteAmount": -40
+   }
+  },
+  {
+   "id": "builtin-pastel-forest",
+   "name": "Pastel Forest",
+   "look": {
+    "tint": -1.5,
+    "polarizer": 25,
+    "exposure": 0.13,
+    "temperature": 12,
+    "toneMapper": "basic",
+    "contrast": 15.8,
+    "highlights": -6,
+    "shadows": 8,
+    "whites": 0,
+    "blacks": 4,
+    "saturation": -6,
+    "vibrance": 14,
+    "clarity": -4,
+    "halationAmount": 6,
+    "grainAmount": 8,
+    "grainSize": 22,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 30,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 330,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 22,
+      "saturation": 28,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": -15,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": -24,
+      "luminance": 4
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -22,
+      "luminance": -18
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -14,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 127
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 172
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-mist-forest",
+   "name": "Mist Forest",
+   "look": {
+    "tint": 3.6,
+    "polarizer": 25,
+    "exposure": 0.13,
+    "temperature": -8,
+    "skinProtect": 45,
+    "toneMapper": "basic",
+    "contrast": 15.8,
+    "highlights": -6,
+    "shadows": 8,
+    "whites": 0,
+    "blacks": 4,
+    "saturation": 0,
+    "vibrance": 14,
+    "clarity": -4,
+    "halationAmount": 6,
+    "grainAmount": 8,
+    "grainSize": 22,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 190,
+      "saturation": 16,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 200,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": -18,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": -24,
+      "luminance": 4
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -22,
+      "luminance": -18
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -14,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 127
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 172
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-golden-trail",
+   "name": "Golden Trail",
+   "look": {
+    "tint": -1.5,
+    "polarizer": 25,
+    "temperature": 10.5,
+    "exposure": 0.23,
+    "toneMapper": "basic",
+    "contrast": 17.8,
+    "highlights": -14,
+    "shadows": 6,
+    "whites": 12,
+    "blacks": -6,
+    "saturation": -14,
+    "vibrance": -8,
+    "clarity": 12,
+    "dehaze": 6,
+    "grainAmount": 6,
+    "vignetteAmount": -22,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 40,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -7,
+      "luminance": -15
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -30,
+      "luminance": -28
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": -30
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": -24
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 60,
+       "y": 48
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 200,
+       "y": 205
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 100
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 149
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 213
+      },
+      {
+       "x": 224,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 242
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 144,
+       "y": 137
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 186
+      },
+      {
+       "x": 208,
+       "y": 203
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-slate-trail",
+   "name": "Slate Trail",
+   "look": {
+    "tint": -3.6,
+    "polarizer": 25,
+    "temperature": -6,
+    "skinProtect": 45,
+    "exposure": 0.23,
+    "toneMapper": "basic",
+    "contrast": 17.8,
+    "highlights": -14,
+    "shadows": 3,
+    "whites": 15,
+    "blacks": -6,
+    "saturation": -14,
+    "vibrance": 4,
+    "clarity": 12,
+    "dehaze": 6,
+    "grainAmount": 6,
+    "vignetteAmount": -22,
+    "colorGrading": {
+     "shadows": {
+      "hue": 200,
+      "saturation": 24,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -13,
+      "luminance": -15
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -36,
+      "luminance": -28
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": -30
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": -24
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 60,
+       "y": 48
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 200,
+       "y": 205
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 100
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 149
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 213
+      },
+      {
+       "x": 224,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 242
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 144,
+       "y": 137
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 186
+      },
+      {
+       "x": 208,
+       "y": 203
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-amber-wild",
+   "name": "Amber Wild",
+   "look": {
+    "polarizer": 25,
+    "tint": 6.6,
+    "toneMapper": "basic",
+    "exposure": 0.13,
+    "contrast": 17.8,
+    "highlights": 7,
+    "shadows": 3,
+    "whites": 16,
+    "blacks": -10,
+    "temperature": -5,
+    "saturation": 16,
+    "vibrance": 20,
+    "clarity": 12,
+    "structure": 14,
+    "dehaze": 14,
+    "grainAmount": 6,
+    "vignetteAmount": -24,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 200,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 36,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": -11,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": 0,
+      "luminance": -20
+     },
+     "aquas": {
+      "hue": -6,
+      "saturation": -14,
+      "luminance": -8
+     },
+     "blues": {
+      "hue": -4,
+      "saturation": -5,
+      "luminance": -40
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 60,
+       "y": 46
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 244
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 160
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 108
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 173
+      },
+      {
+       "x": 192,
+       "y": 190
+      },
+      {
+       "x": 208,
+       "y": 206
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-blue-wild",
+   "name": "Blue Wild",
+   "look": {
+    "polarizer": 25,
+    "tint": 0.9,
+    "toneMapper": "basic",
+    "exposure": 0.13,
+    "contrast": 17.8,
+    "highlights": 7,
+    "shadows": 3,
+    "whites": 16,
+    "blacks": -10,
+    "temperature": -25,
+    "saturation": -16,
+    "vibrance": 20,
+    "clarity": 12,
+    "structure": 14,
+    "dehaze": 14,
+    "grainAmount": 6,
+    "vignetteAmount": -24,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 200,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 36,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": -11,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": -3,
+      "luminance": -20
+     },
+     "aquas": {
+      "hue": -6,
+      "saturation": -14,
+      "luminance": -8
+     },
+     "blues": {
+      "hue": -4,
+      "saturation": 4,
+      "luminance": -40
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 60,
+       "y": 46
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 244
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 160
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 108
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 173
+      },
+      {
+       "x": 192,
+       "y": 190
+      },
+      {
+       "x": 208,
+       "y": 206
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-amber-street",
+   "name": "Amber Street",
+   "look": {
+    "vibrance": 2.5,
+    "temperature": 14.4,
+    "tint": 7.6,
+    "skinProtect": 50,
+    "exposure": -0.32,
+    "contrast": 12.8,
+    "highlights": -7,
+    "whites": 10,
+    "shadows": 5,
+    "blacks": 10,
+    "saturation": -47,
+    "grainAmount": 20,
+    "vignetteAmount": -35,
+    "polarizer": 40,
+    "mistAmount": 26,
+    "mistStyle": "black",
+    "colorGrading": {
+     "shadows": {
+      "hue": 210,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 60,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": -25,
+      "luminance": 6
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": -35,
+      "luminance": 22
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -35,
+      "luminance": -54
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -16,
+      "luminance": -42
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 11
+      },
+      {
+       "x": 64,
+       "y": 53
+      },
+      {
+       "x": 192,
+       "y": 210
+      },
+      {
+       "x": 255,
+       "y": 250
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 159
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 84
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 76
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 141
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-concrete-street",
+   "name": "Concrete Street",
+   "look": {
+    "vibrance": -5,
+    "temperature": -12,
+    "tint": 4,
+    "skinProtect": 50,
+    "exposure": -0.17,
+    "contrast": 12.8,
+    "highlights": -4,
+    "whites": 10,
+    "shadows": 5,
+    "blacks": 10,
+    "saturation": -69,
+    "grainAmount": 20,
+    "vignetteAmount": -35,
+    "polarizer": 40,
+    "mistAmount": 26,
+    "mistStyle": "black",
+    "colorGrading": {
+     "shadows": {
+      "hue": 210,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 60,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": -25,
+      "luminance": 6
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": -35,
+      "luminance": 22
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -35,
+      "luminance": -54
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -40,
+      "luminance": -54
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 11
+      },
+      {
+       "x": 64,
+       "y": 53
+      },
+      {
+       "x": 192,
+       "y": 210
+      },
+      {
+       "x": 255,
+       "y": 250
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 159
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 84
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 76
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 141
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-sodium-street",
+   "name": "Sodium Street",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 0,
+    "vibrance": -7.5,
+    "tint": 6.6,
+    "exposure": 0.02,
+    "contrast": -8.2,
+    "highlights": -24,
+    "whites": -10,
+    "saturation": -19,
+    "temperature": 20,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -17,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-steel-street",
+   "name": "Steel Street",
+   "look": {
+    "blacks": -3,
+    "mistAmount": 0,
+    "polarizer": 0,
+    "vibrance": -10,
+    "tint": -0.6,
+    "exposure": 0.1,
+    "contrast": -11,
+    "highlights": -18,
+    "whites": -4,
+    "saturation": -21,
+    "temperature": 6,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -20,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-soft-editorial",
+   "name": "Soft Editorial",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 0,
+    "tint": 6,
+    "temperature": 12,
+    "exposure": -0.3,
+    "toneMapper": "basic",
+    "contrast": -18.2,
+    "highlights": -24,
+    "shadows": 12,
+    "whites": -25,
+    "blacks": 8,
+    "saturation": -23,
+    "vibrance": 5,
+    "clarity": 6,
+    "grainAmount": 8,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 200,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 38,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": -15,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -29,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -45,
+      "luminance": -15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -30,
+      "luminance": -10
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -25,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 48,
+       "y": 37
+      },
+      {
+       "x": 64,
+       "y": 48
+      },
+      {
+       "x": 80,
+       "y": 61
+      },
+      {
+       "x": 96,
+       "y": 77
+      },
+      {
+       "x": 112,
+       "y": 97
+      },
+      {
+       "x": 160,
+       "y": 172
+      },
+      {
+       "x": 176,
+       "y": 193
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 48,
+       "y": 39
+      },
+      {
+       "x": 64,
+       "y": 51
+      },
+      {
+       "x": 80,
+       "y": 64
+      },
+      {
+       "x": 96,
+       "y": 81
+      },
+      {
+       "x": 112,
+       "y": 102
+      },
+      {
+       "x": 160,
+       "y": 173
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 64,
+       "y": 50
+      },
+      {
+       "x": 80,
+       "y": 63
+      },
+      {
+       "x": 96,
+       "y": 79
+      },
+      {
+       "x": 112,
+       "y": 98
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 187
+      },
+      {
+       "x": 192,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-cool-editorial",
+   "name": "Cool Editorial",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 0,
+    "tint": 6,
+    "temperature": -4.5,
+    "exposure": -0.12,
+    "toneMapper": "basic",
+    "contrast": -31,
+    "highlights": -30,
+    "shadows": 6,
+    "whites": -25,
+    "blacks": 8,
+    "saturation": -33,
+    "vibrance": -12,
+    "clarity": 6,
+    "grainAmount": 8,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 200,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 38,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": -15,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -29,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -45,
+      "luminance": -15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -30,
+      "luminance": -10
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -37,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 48,
+       "y": 37
+      },
+      {
+       "x": 64,
+       "y": 48
+      },
+      {
+       "x": 80,
+       "y": 61
+      },
+      {
+       "x": 96,
+       "y": 77
+      },
+      {
+       "x": 112,
+       "y": 97
+      },
+      {
+       "x": 160,
+       "y": 172
+      },
+      {
+       "x": 176,
+       "y": 193
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 48,
+       "y": 39
+      },
+      {
+       "x": 64,
+       "y": 51
+      },
+      {
+       "x": 80,
+       "y": 64
+      },
+      {
+       "x": 96,
+       "y": 81
+      },
+      {
+       "x": 112,
+       "y": 102
+      },
+      {
+       "x": 160,
+       "y": 173
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 64,
+       "y": 50
+      },
+      {
+       "x": 80,
+       "y": 63
+      },
+      {
+       "x": 96,
+       "y": 79
+      },
+      {
+       "x": 112,
+       "y": 98
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 187
+      },
+      {
+       "x": 192,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-metro-day",
+   "name": "Metro Day",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 25,
+    "vibrance": -10,
+    "tint": 6,
+    "exposure": 0.15,
+    "contrast": -8.2,
+    "highlights": -18,
+    "whites": -4,
+    "saturation": -11,
+    "temperature": 12,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -20,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-metro-night",
+   "name": "Metro Night",
+   "look": {
+    "shadows": -6,
+    "mistStyle": "black",
+    "mistAmount": 30,
+    "polarizer": 0,
+    "vibrance": -5,
+    "tint": 3,
+    "exposure": -0.5,
+    "contrast": -8.2,
+    "highlights": -30,
+    "whites": -10,
+    "saturation": -21,
+    "temperature": 12,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -20,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-golden-voyage",
+   "name": "Golden Voyage",
+   "look": {
+    "blacks": -14,
+    "polarizer": 30,
+    "tint": 7.6,
+    "temperature": 18.4,
+    "exposure": 0.4,
+    "contrast": -9.2,
+    "highlights": -25,
+    "shadows": 35,
+    "whites": 10,
+    "vibrance": -7.5,
+    "saturation": -26,
+    "clarity": 12,
+    "dehaze": 8,
+    "vignetteAmount": -10,
+    "colorGrading": {
+     "shadows": {
+      "hue": 345,
+      "saturation": 22,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 160,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 18,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": 0,
+      "saturation": 24,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -55,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -5,
+      "luminance": -40
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": 2,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 18
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 54
+      },
+      {
+       "x": 64,
+       "y": 69
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 114
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 4
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 12
+      },
+      {
+       "x": 32,
+       "y": 28
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-blue-voyage",
+   "name": "Blue Voyage",
+   "look": {
+    "blacks": -14,
+    "polarizer": 30,
+    "tint": 7.6,
+    "temperature": -4,
+    "skinProtect": 45,
+    "exposure": 0.4,
+    "contrast": -9.2,
+    "highlights": -25,
+    "shadows": 32,
+    "whites": 10,
+    "vibrance": 12.5,
+    "saturation": -10,
+    "clarity": 12,
+    "dehaze": 8,
+    "vignetteAmount": -10,
+    "colorGrading": {
+     "shadows": {
+      "hue": 205,
+      "saturation": 28,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 18,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": 0,
+      "saturation": 24,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -43,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -5,
+      "luminance": -40
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": 2,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 18
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 54
+      },
+      {
+       "x": 64,
+       "y": 69
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 114
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 4
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 12
+      },
+      {
+       "x": 32,
+       "y": 28
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-sunlit-escape",
+   "name": "Sunlit Escape",
+   "look": {
+    "polarizer": 30,
+    "toneMapper": "basic",
+    "exposure": 0.08,
+    "contrast": -6.2,
+    "highlights": -34,
+    "shadows": 32,
+    "whites": 8,
+    "blacks": -10,
+    "temperature": 20,
+    "tint": 8,
+    "saturation": -18,
+    "vibrance": -11.5,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 50,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 215,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 14,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 12,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-azure-escape",
+   "name": "Azure Escape",
+   "look": {
+    "polarizer": 30,
+    "toneMapper": "basic",
+    "exposure": 0.08,
+    "contrast": -6.2,
+    "highlights": -34,
+    "shadows": 44,
+    "whites": 8,
+    "blacks": -4,
+    "temperature": -3,
+    "skinProtect": 45,
+    "tint": 3,
+    "saturation": 2,
+    "vibrance": -11.5,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 200,
+      "saturation": 24,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 210,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 26,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 12,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-golden-coast",
+   "name": "Golden Coast",
+   "look": {
+    "tint": -3,
+    "polarizer": 30,
+    "temperature": 13.4,
+    "exposure": -0.02,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": 17.8,
+    "highlights": 2,
+    "shadows": 36,
+    "whites": 2,
+    "blacks": -2,
+    "vibrance": 0,
+    "saturation": 0,
+    "clarity": 4,
+    "sharpness": 8,
+    "halationAmount": 14,
+    "grainAmount": 12,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 195,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 30,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 60,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": -3,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -18,
+      "saturation": -30,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": -28
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": 15,
+      "luminance": -30
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 48,
+       "y": 43
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 240
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 150
+      },
+      {
+       "x": 160,
+       "y": 167
+      },
+      {
+       "x": 176,
+       "y": 184
+      },
+      {
+       "x": 192,
+       "y": 203
+      },
+      {
+       "x": 208,
+       "y": 216
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 243
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 60
+      },
+      {
+       "x": 80,
+       "y": 77
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 3
+      },
+      {
+       "x": 16,
+       "y": 20
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 53
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 97
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 166
+      },
+      {
+       "x": 192,
+       "y": 181
+      },
+      {
+       "x": 208,
+       "y": 199
+      },
+      {
+       "x": 224,
+       "y": 218
+      },
+      {
+       "x": 240,
+       "y": 237
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-teal-coast",
+   "name": "Teal Coast",
+   "look": {
+    "polarizer": 30,
+    "temperature": -7,
+    "exposure": -0.1,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": 17.8,
+    "highlights": 2,
+    "shadows": 12,
+    "whites": -4,
+    "blacks": -2,
+    "vibrance": 2.5,
+    "saturation": 0,
+    "clarity": 4,
+    "sharpness": 8,
+    "halationAmount": 14,
+    "grainAmount": 12,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 195,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 30,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 60,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": -3,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -18,
+      "saturation": -30,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": -28
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": 15,
+      "luminance": -30
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 48,
+       "y": 43
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 240
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 150
+      },
+      {
+       "x": 160,
+       "y": 167
+      },
+      {
+       "x": 176,
+       "y": 184
+      },
+      {
+       "x": 192,
+       "y": 203
+      },
+      {
+       "x": 208,
+       "y": 216
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 243
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 60
+      },
+      {
+       "x": 80,
+       "y": 77
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 3
+      },
+      {
+       "x": 16,
+       "y": 20
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 53
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 97
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 166
+      },
+      {
+       "x": 192,
+       "y": 181
+      },
+      {
+       "x": 208,
+       "y": 199
+      },
+      {
+       "x": 224,
+       "y": 218
+      },
+      {
+       "x": 240,
+       "y": 237
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-warm-wanderer",
+   "name": "Warm Wanderer",
+   "look": {
+    "exposure": -0.1,
+    "polarizer": 30,
+    "skinProtect": 50,
+    "contrast": 19.8,
+    "highlights": -24,
+    "shadows": 4,
+    "whites": -8,
+    "blacks": -6,
+    "temperature": 20,
+    "tint": 5.6,
+    "vibrance": 8.5,
+    "saturation": -6,
+    "clarity": 6,
+    "grainAmount": 4,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 35,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 38,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -12,
+      "saturation": -12,
+      "luminance": -12
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": 6,
+      "luminance": -8
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 32,
+       "y": 41
+      },
+      {
+       "x": 96,
+       "y": 105
+      },
+      {
+       "x": 112,
+       "y": 124
+      },
+      {
+       "x": 160,
+       "y": 193
+      },
+      {
+       "x": 176,
+       "y": 208
+      },
+      {
+       "x": 192,
+       "y": 220
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 5
+      },
+      {
+       "x": 32,
+       "y": 46
+      },
+      {
+       "x": 80,
+       "y": 103
+      },
+      {
+       "x": 128,
+       "y": 171
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 206
+      },
+      {
+       "x": 176,
+       "y": 217
+      },
+      {
+       "x": 192,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 32,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 80
+      },
+      {
+       "x": 80,
+       "y": 101
+      },
+      {
+       "x": 128,
+       "y": 172
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 205
+      },
+      {
+       "x": 176,
+       "y": 215
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-clean-wanderer",
+   "name": "Clean Wanderer",
+   "look": {
+    "exposure": -0.1,
+    "polarizer": 30,
+    "skinProtect": 50,
+    "contrast": 19.8,
+    "highlights": -24,
+    "shadows": 16,
+    "whites": -8,
+    "blacks": -6,
+    "temperature": 2,
+    "tint": 2,
+    "vibrance": 22,
+    "saturation": -11,
+    "clarity": 6,
+    "grainAmount": 4,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 35,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 38,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": -4,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -12,
+      "saturation": -12,
+      "luminance": -12
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": 6,
+      "luminance": -8
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 32,
+       "y": 41
+      },
+      {
+       "x": 96,
+       "y": 105
+      },
+      {
+       "x": 112,
+       "y": 124
+      },
+      {
+       "x": 160,
+       "y": 193
+      },
+      {
+       "x": 176,
+       "y": 208
+      },
+      {
+       "x": 192,
+       "y": 220
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 5
+      },
+      {
+       "x": 32,
+       "y": 46
+      },
+      {
+       "x": 80,
+       "y": 103
+      },
+      {
+       "x": 128,
+       "y": 171
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 206
+      },
+      {
+       "x": 176,
+       "y": 217
+      },
+      {
+       "x": 192,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 32,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 80
+      },
+      {
+       "x": 80,
+       "y": 101
+      },
+      {
+       "x": 128,
+       "y": 172
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 205
+      },
+      {
+       "x": 176,
+       "y": 215
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-bright-journey",
+   "name": "Bright Journey",
+   "look": {
+    "polarizer": 30,
+    "toneMapper": "basic",
+    "exposure": 0.13,
+    "contrast": -6.2,
+    "highlights": -34,
+    "shadows": 56,
+    "whites": 17,
+    "blacks": -4,
+    "temperature": 14.4,
+    "tint": 8,
+    "saturation": -2,
+    "vibrance": -11.5,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 50,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 215,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 14,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 12,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-moody-journey",
+   "name": "Moody Journey",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 20,
+    "polarizer": 0,
+    "toneMapper": "basic",
+    "exposure": -0.12,
+    "contrast": -6.2,
+    "highlights": -34,
+    "shadows": 41,
+    "whites": 14,
+    "blacks": -4,
+    "temperature": 14.4,
+    "tint": 4,
+    "saturation": 2,
+    "vibrance": -11.5,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 50,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 215,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 14,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 12,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-warm-film-diary",
+   "name": "Warm Film Diary",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 20,
+    "blacks": -3,
+    "shadows": -12,
+    "polarizer": 0,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "exposure": -0.32,
+    "contrast": 5.8,
+    "highlights": -18,
+    "whites": -1,
+    "temperature": 20,
+    "tint": 8,
+    "saturation": -24,
+    "vibrance": -23.5,
+    "halationAmount": 18,
+    "grainAmount": 16,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 45,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 28,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 22,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 4,
+      "luminance": -4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": 60,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -20,
+      "luminance": 6
+     },
+     "blues": {
+      "hue": -5,
+      "saturation": -25,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 52
+      },
+      {
+       "x": 128,
+       "y": 110
+      },
+      {
+       "x": 200,
+       "y": 188
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 144,
+       "y": 131
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 153
+      },
+      {
+       "x": 192,
+       "y": 170
+      },
+      {
+       "x": 208,
+       "y": 190
+      },
+      {
+       "x": 224,
+       "y": 211
+      },
+      {
+       "x": 240,
+       "y": 230
+      },
+      {
+       "x": 255,
+       "y": 247
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 135
+      },
+      {
+       "x": 144,
+       "y": 155
+      },
+      {
+       "x": 160,
+       "y": 175
+      },
+      {
+       "x": 176,
+       "y": 192
+      },
+      {
+       "x": 192,
+       "y": 206
+      },
+      {
+       "x": 208,
+       "y": 219
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-soft-film-diary",
+   "name": "Soft Film Diary",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 20,
+    "blacks": -3,
+    "shadows": -12,
+    "polarizer": 0,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "exposure": -0.32,
+    "contrast": -9.8,
+    "highlights": -18,
+    "whites": -1,
+    "temperature": 8,
+    "tint": 8,
+    "saturation": -34,
+    "vibrance": -26,
+    "halationAmount": 18,
+    "grainAmount": 16,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 45,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 28,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 22,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 4,
+      "luminance": -4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": 60,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -20,
+      "luminance": 6
+     },
+     "blues": {
+      "hue": -5,
+      "saturation": -25,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 52
+      },
+      {
+       "x": 128,
+       "y": 110
+      },
+      {
+       "x": 200,
+       "y": 188
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 144,
+       "y": 131
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 153
+      },
+      {
+       "x": 192,
+       "y": 170
+      },
+      {
+       "x": 208,
+       "y": 190
+      },
+      {
+       "x": 224,
+       "y": 211
+      },
+      {
+       "x": 240,
+       "y": 230
+      },
+      {
+       "x": 255,
+       "y": 247
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 135
+      },
+      {
+       "x": 144,
+       "y": 155
+      },
+      {
+       "x": 160,
+       "y": 175
+      },
+      {
+       "x": 176,
+       "y": 192
+      },
+      {
+       "x": 192,
+       "y": 206
+      },
+      {
+       "x": 208,
+       "y": 219
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-golden-diary",
+   "name": "Golden Diary",
+   "look": {
+    "mistStyle": "gold",
+    "mistAmount": 12,
+    "polarizer": 0,
+    "exposure": -0.12,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": 11.8,
+    "highlights": -18,
+    "shadows": 27,
+    "whites": 10,
+    "blacks": 2,
+    "temperature": 15,
+    "tint": 8,
+    "saturation": -6,
+    "vibrance": -17.5,
+    "clarity": -6,
+    "glowAmount": 8,
+    "halationAmount": 12,
+    "grainAmount": 10,
+    "grainSize": 26,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 32,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 40,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 48,
+      "saturation": 26,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 10
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": 16,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 8,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": -12,
+      "luminance": 4
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 56
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 242
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 59
+      },
+      {
+       "x": 80,
+       "y": 73
+      },
+      {
+       "x": 96,
+       "y": 86
+      },
+      {
+       "x": 112,
+       "y": 100
+      },
+      {
+       "x": 128,
+       "y": 113
+      },
+      {
+       "x": 144,
+       "y": 128
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 154
+      },
+      {
+       "x": 192,
+       "y": 169
+      },
+      {
+       "x": 208,
+       "y": 187
+      },
+      {
+       "x": 224,
+       "y": 208
+      },
+      {
+       "x": 240,
+       "y": 228
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 147
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 181
+      },
+      {
+       "x": 192,
+       "y": 199
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 231
+      },
+      {
+       "x": 240,
+       "y": 246
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 103
+      },
+      {
+       "x": 112,
+       "y": 122
+      },
+      {
+       "x": 128,
+       "y": 139
+      },
+      {
+       "x": 144,
+       "y": 157
+      },
+      {
+       "x": 160,
+       "y": 176
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 209
+      },
+      {
+       "x": 208,
+       "y": 221
+      },
+      {
+       "x": 224,
+       "y": 234
+      },
+      {
+       "x": 240,
+       "y": 247
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-teal-diary",
+   "name": "Teal Diary",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 12,
+    "polarizer": 0,
+    "exposure": -0.12,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": -3.8,
+    "highlights": -18,
+    "shadows": 21,
+    "whites": 4,
+    "blacks": 2,
+    "temperature": 0,
+    "tint": 8,
+    "saturation": 0,
+    "vibrance": -3.5,
+    "clarity": -6,
+    "glowAmount": 8,
+    "halationAmount": 12,
+    "grainAmount": 10,
+    "grainSize": 26,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 32,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 40,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 48,
+      "saturation": 26,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 10
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": 16,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 8,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": -12,
+      "luminance": 4
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 56
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 242
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 59
+      },
+      {
+       "x": 80,
+       "y": 73
+      },
+      {
+       "x": 96,
+       "y": 86
+      },
+      {
+       "x": 112,
+       "y": 100
+      },
+      {
+       "x": 128,
+       "y": 113
+      },
+      {
+       "x": 144,
+       "y": 128
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 154
+      },
+      {
+       "x": 192,
+       "y": 169
+      },
+      {
+       "x": 208,
+       "y": 187
+      },
+      {
+       "x": 224,
+       "y": 208
+      },
+      {
+       "x": 240,
+       "y": 228
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 147
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 181
+      },
+      {
+       "x": 192,
+       "y": 199
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 231
+      },
+      {
+       "x": 240,
+       "y": 246
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 103
+      },
+      {
+       "x": 112,
+       "y": 122
+      },
+      {
+       "x": 128,
+       "y": 139
+      },
+      {
+       "x": 144,
+       "y": 157
+      },
+      {
+       "x": 160,
+       "y": 176
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 209
+      },
+      {
+       "x": 208,
+       "y": 221
+      },
+      {
+       "x": 224,
+       "y": 234
+      },
+      {
+       "x": 240,
+       "y": 247
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-forest-neutral",
+   "name": "Forest Neutral",
+   "look": {
+    "tint": 0,
+    "polarizer": 25,
+    "exposure": 0.23,
+    "temperature": 3,
+    "toneMapper": "basic",
+    "contrast": 18,
+    "highlights": -6,
+    "shadows": 5,
+    "whites": 0,
+    "blacks": 4,
+    "saturation": 4,
+    "vibrance": 16.5,
+    "clarity": -4,
+    "halationAmount": 6,
+    "grainAmount": 8,
+    "grainSize": 22,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 30,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 330,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 22,
+      "saturation": 28,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": -9,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": -24,
+      "luminance": 4
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -22,
+      "luminance": -18
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -14,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 127
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 172
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-trail-neutral",
+   "name": "Trail Neutral",
+   "look": {
+    "tint": -1.8,
+    "polarizer": 25,
+    "temperature": 3,
+    "exposure": 0.28,
+    "toneMapper": "basic",
+    "contrast": 18,
+    "highlights": -2,
+    "shadows": 3,
+    "whites": 12,
+    "blacks": -6,
+    "saturation": -20,
+    "vibrance": -5.5,
+    "clarity": 12,
+    "dehaze": 6,
+    "grainAmount": 6,
+    "vignetteAmount": -22,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 40,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": 5,
+      "luminance": -15
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -30,
+      "luminance": -28
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": -30
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": -24
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 60,
+       "y": 48
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 200,
+       "y": 205
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 100
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 149
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 213
+      },
+      {
+       "x": 224,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 242
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 112
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 144,
+       "y": 137
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 186
+      },
+      {
+       "x": 208,
+       "y": 203
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-wild-neutral",
+   "name": "Wild Neutral",
+   "look": {
+    "polarizer": 25,
+    "tint": -1.8,
+    "toneMapper": "basic",
+    "exposure": 0.23,
+    "contrast": 18,
+    "highlights": 7,
+    "shadows": 3,
+    "whites": 16,
+    "blacks": -10,
+    "temperature": 3,
+    "saturation": 6,
+    "vibrance": 22.5,
+    "clarity": 12,
+    "structure": 14,
+    "dehaze": 14,
+    "grainAmount": 6,
+    "vignetteAmount": -24,
+    "colorGrading": {
+     "shadows": {
+      "hue": 185,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 200,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 36,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": 1,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -10,
+      "saturation": 0,
+      "luminance": -20
+     },
+     "aquas": {
+      "hue": -6,
+      "saturation": -14,
+      "luminance": -8
+     },
+     "blues": {
+      "hue": -4,
+      "saturation": -5,
+      "luminance": -40
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 60,
+       "y": 46
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 244
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 160
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 108
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 173
+      },
+      {
+       "x": 192,
+       "y": 190
+      },
+      {
+       "x": 208,
+       "y": 206
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-street-neutral",
+   "name": "Street Neutral",
+   "look": {
+    "vibrance": 2.5,
+    "temperature": 0,
+    "tint": 0,
+    "skinProtect": 50,
+    "exposure": -0.22,
+    "contrast": 18,
+    "highlights": 2,
+    "whites": 10,
+    "shadows": 5,
+    "blacks": -2,
+    "saturation": -57,
+    "grainAmount": 20,
+    "vignetteAmount": -35,
+    "polarizer": 40,
+    "mistAmount": 26,
+    "mistStyle": "black",
+    "colorGrading": {
+     "shadows": {
+      "hue": 210,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 60,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -12,
+      "saturation": -25,
+      "luminance": 6
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": -35,
+      "luminance": 22
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -35,
+      "luminance": -66
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -16,
+      "luminance": -45
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 11
+      },
+      {
+       "x": 64,
+       "y": 53
+      },
+      {
+       "x": 192,
+       "y": 210
+      },
+      {
+       "x": 255,
+       "y": 250
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 128
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 159
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 209
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 17
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 84
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 117
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 76
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 107
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 141
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 175
+      },
+      {
+       "x": 192,
+       "y": 189
+      },
+      {
+       "x": 208,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-city-neutral",
+   "name": "City Neutral",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 0,
+    "vibrance": -7.5,
+    "tint": 0,
+    "exposure": 0.12,
+    "contrast": -0.4,
+    "highlights": -24,
+    "whites": -10,
+    "saturation": -9,
+    "temperature": 3,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -17,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-editorial-neutral",
+   "name": "Editorial Neutral",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 0,
+    "tint": 1.8,
+    "temperature": 3,
+    "exposure": -0.2,
+    "toneMapper": "basic",
+    "contrast": -18.2,
+    "highlights": -24,
+    "shadows": 3,
+    "whites": -25,
+    "blacks": 8,
+    "saturation": -35,
+    "vibrance": 10,
+    "clarity": 6,
+    "grainAmount": 8,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 200,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 38,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": -15,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -29,
+      "luminance": -6
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -45,
+      "luminance": -15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -30,
+      "luminance": -10
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": -25,
+      "luminance": -20
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 12
+      },
+      {
+       "x": 48,
+       "y": 37
+      },
+      {
+       "x": 64,
+       "y": 48
+      },
+      {
+       "x": 80,
+       "y": 61
+      },
+      {
+       "x": 96,
+       "y": 77
+      },
+      {
+       "x": 112,
+       "y": 97
+      },
+      {
+       "x": 160,
+       "y": 172
+      },
+      {
+       "x": 176,
+       "y": 193
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 48,
+       "y": 39
+      },
+      {
+       "x": 64,
+       "y": 51
+      },
+      {
+       "x": 80,
+       "y": 64
+      },
+      {
+       "x": 96,
+       "y": 81
+      },
+      {
+       "x": 112,
+       "y": 102
+      },
+      {
+       "x": 160,
+       "y": 173
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 211
+      },
+      {
+       "x": 208,
+       "y": 224
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 64,
+       "y": 50
+      },
+      {
+       "x": 80,
+       "y": 63
+      },
+      {
+       "x": 96,
+       "y": 79
+      },
+      {
+       "x": 112,
+       "y": 98
+      },
+      {
+       "x": 160,
+       "y": 166
+      },
+      {
+       "x": 176,
+       "y": 187
+      },
+      {
+       "x": 192,
+       "y": 205
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-metro-neutral",
+   "name": "Metro Neutral",
+   "look": {
+    "mistAmount": 0,
+    "polarizer": 25,
+    "vibrance": -10,
+    "tint": 0,
+    "exposure": -0.03,
+    "contrast": -3.2,
+    "highlights": -15,
+    "whites": -4,
+    "saturation": -11,
+    "temperature": 0,
+    "grainAmount": 15,
+    "colorGrading": {
+     "shadows": {
+      "hue": 175,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 60,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": -20,
+      "luminance": 8
+     },
+     "greens": {
+      "hue": -20,
+      "saturation": -20,
+      "luminance": 15
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -10,
+      "luminance": -12
+     },
+     "blues": {
+      "hue": -10,
+      "saturation": -12,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 55
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 255,
+       "y": 236
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 16,
+       "y": 21
+      },
+      {
+       "x": 32,
+       "y": 36
+      },
+      {
+       "x": 48,
+       "y": 50
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 94
+      },
+      {
+       "x": 112,
+       "y": 111
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 169
+      },
+      {
+       "x": 192,
+       "y": 184
+      },
+      {
+       "x": 208,
+       "y": 202
+      },
+      {
+       "x": 224,
+       "y": 222
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 65
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 95
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 142
+      },
+      {
+       "x": 160,
+       "y": 162
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 198
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 225
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-voyage-neutral",
+   "name": "Voyage Neutral",
+   "look": {
+    "blacks": -14,
+    "polarizer": 30,
+    "tint": 0,
+    "temperature": 3,
+    "exposure": 0.3,
+    "contrast": -1.4,
+    "highlights": -21,
+    "shadows": 35,
+    "whites": 10,
+    "vibrance": -5,
+    "saturation": -20,
+    "clarity": 12,
+    "dehaze": 8,
+    "vignetteAmount": -10,
+    "colorGrading": {
+     "shadows": {
+      "hue": 345,
+      "saturation": 22,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 12,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 160,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 18,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": 0,
+      "saturation": 24,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": -52,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -5,
+      "luminance": -40
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": 14,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 18
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 54
+      },
+      {
+       "x": 64,
+       "y": 69
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 114
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 158
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 221
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 4
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 79
+      },
+      {
+       "x": 96,
+       "y": 96
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 129
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 12
+      },
+      {
+       "x": 32,
+       "y": 28
+      },
+      {
+       "x": 48,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 125
+      },
+      {
+       "x": 144,
+       "y": 143
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 195
+      },
+      {
+       "x": 208,
+       "y": 210
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-escape-neutral",
+   "name": "Escape Neutral",
+   "look": {
+    "polarizer": 30,
+    "toneMapper": "basic",
+    "exposure": 0.21,
+    "contrast": 1.6,
+    "highlights": -30,
+    "shadows": 32,
+    "whites": 11,
+    "blacks": -10,
+    "temperature": 0,
+    "tint": 0,
+    "saturation": -8,
+    "vibrance": -9,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 50,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 215,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 26,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 24,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-coast-neutral",
+   "name": "Coast Neutral",
+   "look": {
+    "tint": -1.8,
+    "polarizer": 30,
+    "temperature": 3,
+    "exposure": 0.03,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": 18,
+    "highlights": 2,
+    "shadows": 36,
+    "whites": 2,
+    "blacks": -2,
+    "vibrance": -21.5,
+    "saturation": -22,
+    "clarity": 4,
+    "sharpness": 8,
+    "halationAmount": 14,
+    "grainAmount": 12,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 195,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 30,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 40,
+      "saturation": 30,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 60,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": -3,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -18,
+      "saturation": -30,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": -28
+     },
+     "blues": {
+      "hue": 0,
+      "saturation": 15,
+      "luminance": -30
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 48,
+       "y": 43
+      },
+      {
+       "x": 128,
+       "y": 122
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 240
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 81
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 133
+      },
+      {
+       "x": 144,
+       "y": 150
+      },
+      {
+       "x": 160,
+       "y": 167
+      },
+      {
+       "x": 176,
+       "y": 184
+      },
+      {
+       "x": 192,
+       "y": 203
+      },
+      {
+       "x": 208,
+       "y": 216
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 243
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 13
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 60
+      },
+      {
+       "x": 80,
+       "y": 77
+      },
+      {
+       "x": 96,
+       "y": 93
+      },
+      {
+       "x": 112,
+       "y": 109
+      },
+      {
+       "x": 128,
+       "y": 126
+      },
+      {
+       "x": 144,
+       "y": 144
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 177
+      },
+      {
+       "x": 192,
+       "y": 192
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 3
+      },
+      {
+       "x": 16,
+       "y": 20
+      },
+      {
+       "x": 32,
+       "y": 37
+      },
+      {
+       "x": 48,
+       "y": 53
+      },
+      {
+       "x": 64,
+       "y": 68
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 97
+      },
+      {
+       "x": 112,
+       "y": 110
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 144,
+       "y": 139
+      },
+      {
+       "x": 160,
+       "y": 153
+      },
+      {
+       "x": 176,
+       "y": 166
+      },
+      {
+       "x": 192,
+       "y": 181
+      },
+      {
+       "x": 208,
+       "y": 199
+      },
+      {
+       "x": 224,
+       "y": 218
+      },
+      {
+       "x": 240,
+       "y": 237
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-wanderer-neutral",
+   "name": "Wanderer Neutral",
+   "look": {
+    "exposure": -0.1,
+    "polarizer": 30,
+    "skinProtect": 50,
+    "contrast": 18,
+    "highlights": -24,
+    "shadows": 7,
+    "whites": -8,
+    "blacks": -6,
+    "temperature": 3,
+    "tint": -1.8,
+    "vibrance": 11,
+    "saturation": -20,
+    "clarity": 6,
+    "grainAmount": 4,
+    "vignetteAmount": -8,
+    "colorGrading": {
+     "shadows": {
+      "hue": 35,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 38,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 45,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": 20,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -12,
+      "saturation": -12,
+      "luminance": -12
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 0,
+      "luminance": -6
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": 6,
+      "luminance": -8
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 32,
+       "y": 41
+      },
+      {
+       "x": 96,
+       "y": 105
+      },
+      {
+       "x": 112,
+       "y": 124
+      },
+      {
+       "x": 160,
+       "y": 193
+      },
+      {
+       "x": 176,
+       "y": 208
+      },
+      {
+       "x": 192,
+       "y": 220
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 5
+      },
+      {
+       "x": 32,
+       "y": 46
+      },
+      {
+       "x": 80,
+       "y": 103
+      },
+      {
+       "x": 128,
+       "y": 171
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 206
+      },
+      {
+       "x": 176,
+       "y": 217
+      },
+      {
+       "x": 192,
+       "y": 224
+      },
+      {
+       "x": 240,
+       "y": 238
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 7
+      },
+      {
+       "x": 32,
+       "y": 45
+      },
+      {
+       "x": 64,
+       "y": 80
+      },
+      {
+       "x": 80,
+       "y": 101
+      },
+      {
+       "x": 128,
+       "y": 172
+      },
+      {
+       "x": 144,
+       "y": 192
+      },
+      {
+       "x": 160,
+       "y": 205
+      },
+      {
+       "x": 176,
+       "y": 215
+      },
+      {
+       "x": 208,
+       "y": 227
+      },
+      {
+       "x": 255,
+       "y": 241
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-journey-neutral",
+   "name": "Journey Neutral",
+   "look": {
+    "polarizer": 30,
+    "toneMapper": "basic",
+    "exposure": 0.15,
+    "contrast": 1.6,
+    "highlights": -30,
+    "shadows": 68,
+    "whites": 17,
+    "blacks": -4,
+    "temperature": 3,
+    "tint": -1.8,
+    "saturation": -4,
+    "vibrance": -9,
+    "clarity": 14,
+    "dehaze": 8,
+    "sharpness": 10,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 50,
+      "saturation": 4,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 215,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": -4,
+      "luminance": 6
+     },
+     "yellows": {
+      "hue": -8,
+      "saturation": 26,
+      "luminance": 2
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 18,
+      "luminance": 6
+     },
+     "aquas": {
+      "hue": -4,
+      "saturation": 2,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -8,
+      "saturation": -6,
+      "luminance": -28
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 8
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 128,
+       "y": 124
+      },
+      {
+       "x": 200,
+       "y": 220
+      },
+      {
+       "x": 240,
+       "y": 252
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 48
+      },
+      {
+       "x": 64,
+       "y": 61
+      },
+      {
+       "x": 80,
+       "y": 74
+      },
+      {
+       "x": 96,
+       "y": 89
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 123
+      },
+      {
+       "x": 144,
+       "y": 140
+      },
+      {
+       "x": 160,
+       "y": 156
+      },
+      {
+       "x": 176,
+       "y": 171
+      },
+      {
+       "x": 192,
+       "y": 187
+      },
+      {
+       "x": 208,
+       "y": 204
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 240
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 64
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 148
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 179
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 208,
+       "y": 211
+      },
+      {
+       "x": 224,
+       "y": 226
+      },
+      {
+       "x": 240,
+       "y": 241
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 32
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 101
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 145
+      },
+      {
+       "x": 160,
+       "y": 161
+      },
+      {
+       "x": 176,
+       "y": 178
+      },
+      {
+       "x": 192,
+       "y": 194
+      },
+      {
+       "x": 208,
+       "y": 208
+      },
+      {
+       "x": 224,
+       "y": 223
+      },
+      {
+       "x": 240,
+       "y": 239
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-film-diary-neutral",
+   "name": "Film Diary Neutral",
+   "look": {
+    "mistStyle": "black",
+    "mistAmount": 20,
+    "blacks": -3,
+    "shadows": 0,
+    "polarizer": 0,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "exposure": -0.32,
+    "contrast": 13.6,
+    "highlights": -18,
+    "whites": -1,
+    "temperature": 3,
+    "tint": 1.8,
+    "saturation": -46,
+    "vibrance": -45,
+    "halationAmount": 18,
+    "grainAmount": 16,
+    "grainSize": 30,
+    "vignetteAmount": -18,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 27,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 28,
+      "saturation": 6,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 42,
+      "saturation": 13,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 10,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 4,
+      "luminance": -4
+     },
+     "yellows": {
+      "hue": -10,
+      "saturation": 5,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -25,
+      "saturation": 60,
+      "luminance": -10
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -20,
+      "luminance": 6
+     },
+     "blues": {
+      "hue": -5,
+      "saturation": -25,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 6
+      },
+      {
+       "x": 64,
+       "y": 52
+      },
+      {
+       "x": 128,
+       "y": 110
+      },
+      {
+       "x": 200,
+       "y": 188
+      },
+      {
+       "x": 255,
+       "y": 238
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 15
+      },
+      {
+       "x": 32,
+       "y": 31
+      },
+      {
+       "x": 48,
+       "y": 47
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 80,
+       "y": 78
+      },
+      {
+       "x": 96,
+       "y": 92
+      },
+      {
+       "x": 112,
+       "y": 106
+      },
+      {
+       "x": 128,
+       "y": 120
+      },
+      {
+       "x": 144,
+       "y": 131
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 153
+      },
+      {
+       "x": 192,
+       "y": 170
+      },
+      {
+       "x": 208,
+       "y": 190
+      },
+      {
+       "x": 224,
+       "y": 211
+      },
+      {
+       "x": 240,
+       "y": 230
+      },
+      {
+       "x": 255,
+       "y": 247
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 2
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 35
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 82
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 113
+      },
+      {
+       "x": 128,
+       "y": 130
+      },
+      {
+       "x": 144,
+       "y": 146
+      },
+      {
+       "x": 160,
+       "y": 164
+      },
+      {
+       "x": 176,
+       "y": 182
+      },
+      {
+       "x": 192,
+       "y": 200
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 230
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 30
+      },
+      {
+       "x": 48,
+       "y": 46
+      },
+      {
+       "x": 64,
+       "y": 63
+      },
+      {
+       "x": 80,
+       "y": 80
+      },
+      {
+       "x": 96,
+       "y": 98
+      },
+      {
+       "x": 112,
+       "y": 116
+      },
+      {
+       "x": 128,
+       "y": 135
+      },
+      {
+       "x": 144,
+       "y": 155
+      },
+      {
+       "x": 160,
+       "y": 175
+      },
+      {
+       "x": 176,
+       "y": 192
+      },
+      {
+       "x": 192,
+       "y": 206
+      },
+      {
+       "x": 208,
+       "y": 219
+      },
+      {
+       "x": 224,
+       "y": 232
+      },
+      {
+       "x": 240,
+       "y": 245
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "builtin-diary-neutral",
+   "name": "Diary Neutral",
+   "look": {
+    "mistStyle": "gold",
+    "mistAmount": 12,
+    "polarizer": 0,
+    "exposure": 0.06,
+    "skinProtect": 50,
+    "toneMapper": "basic",
+    "contrast": 18,
+    "highlights": -21,
+    "shadows": 39,
+    "whites": 10,
+    "blacks": 2,
+    "temperature": 0,
+    "tint": -1.8,
+    "saturation": -24,
+    "vibrance": -15,
+    "clarity": -6,
+    "glowAmount": 8,
+    "halationAmount": 12,
+    "grainAmount": 10,
+    "grainSize": 26,
+    "vignetteAmount": -12,
+    "colorGrading": {
+     "shadows": {
+      "hue": 28,
+      "saturation": 32,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 40,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 48,
+      "saturation": 26,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 10
+    },
+    "hsl": {
+     "reds": {
+      "hue": 0,
+      "saturation": 8,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 4
+     },
+     "yellows": {
+      "hue": -6,
+      "saturation": 16,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -15,
+      "saturation": 8,
+      "luminance": -6
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -12,
+      "luminance": -25
+     },
+     "blues": {
+      "hue": -6,
+      "saturation": -12,
+      "luminance": 4
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 10
+      },
+      {
+       "x": 64,
+       "y": 56
+      },
+      {
+       "x": 128,
+       "y": 118
+      },
+      {
+       "x": 200,
+       "y": 200
+      },
+      {
+       "x": 255,
+       "y": 242
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 14
+      },
+      {
+       "x": 32,
+       "y": 29
+      },
+      {
+       "x": 48,
+       "y": 44
+      },
+      {
+       "x": 64,
+       "y": 59
+      },
+      {
+       "x": 80,
+       "y": 73
+      },
+      {
+       "x": 96,
+       "y": 86
+      },
+      {
+       "x": 112,
+       "y": 100
+      },
+      {
+       "x": 128,
+       "y": 113
+      },
+      {
+       "x": 144,
+       "y": 128
+      },
+      {
+       "x": 160,
+       "y": 141
+      },
+      {
+       "x": 176,
+       "y": 154
+      },
+      {
+       "x": 192,
+       "y": 169
+      },
+      {
+       "x": 208,
+       "y": 187
+      },
+      {
+       "x": 224,
+       "y": 208
+      },
+      {
+       "x": 240,
+       "y": 228
+      },
+      {
+       "x": 255,
+       "y": 246
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 1
+      },
+      {
+       "x": 16,
+       "y": 18
+      },
+      {
+       "x": 32,
+       "y": 34
+      },
+      {
+       "x": 48,
+       "y": 51
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 83
+      },
+      {
+       "x": 96,
+       "y": 99
+      },
+      {
+       "x": 112,
+       "y": 115
+      },
+      {
+       "x": 128,
+       "y": 131
+      },
+      {
+       "x": 144,
+       "y": 147
+      },
+      {
+       "x": 160,
+       "y": 163
+      },
+      {
+       "x": 176,
+       "y": 181
+      },
+      {
+       "x": 192,
+       "y": 199
+      },
+      {
+       "x": 208,
+       "y": 215
+      },
+      {
+       "x": 224,
+       "y": 231
+      },
+      {
+       "x": 240,
+       "y": 246
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 16,
+       "y": 16
+      },
+      {
+       "x": 32,
+       "y": 33
+      },
+      {
+       "x": 48,
+       "y": 49
+      },
+      {
+       "x": 64,
+       "y": 67
+      },
+      {
+       "x": 80,
+       "y": 85
+      },
+      {
+       "x": 96,
+       "y": 103
+      },
+      {
+       "x": 112,
+       "y": 122
+      },
+      {
+       "x": 128,
+       "y": 139
+      },
+      {
+       "x": 144,
+       "y": 157
+      },
+      {
+       "x": 160,
+       "y": 176
+      },
+      {
+       "x": 176,
+       "y": 194
+      },
+      {
+       "x": 192,
+       "y": 209
+      },
+      {
+       "x": 208,
+       "y": 221
+      },
+      {
+       "x": 224,
+       "y": 234
+      },
+      {
+       "x": 240,
+       "y": 247
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
