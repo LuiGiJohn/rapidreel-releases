@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "minAppVersion": "0.2.9",
- "appVersion": "0.2.9",
+ "minAppVersion": "0.2.10",
+ "appVersion": "0.2.10",
  "presets": [
   {
    "id": "builtin-soft-glow",
@@ -60,6 +60,139 @@
      "blending": 30,
      "balance": 46
     }
+   }
+  },
+  {
+   "id": "builtin-portrait-film",
+   "name": "Portrait Film",
+   "category": "Cinematic",
+   "look": {
+    "temperature": 12,
+    "tint": 3,
+    "contrast": -8,
+    "highlights": -18,
+    "shadows": 10,
+    "vibrance": 4,
+    "saturation": -5,
+    "colorGrading": {
+     "shadows": {
+      "hue": 195,
+      "saturation": 7,
+      "luminance": 0
+     },
+     "midtones": {
+      "hue": 32,
+      "saturation": 13,
+      "luminance": 0
+     },
+     "highlights": {
+      "hue": 48,
+      "saturation": 17,
+      "luminance": 0
+     },
+     "global": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "blending": 50,
+     "balance": 0
+    },
+    "hsl": {
+     "reds": {
+      "hue": 2,
+      "saturation": -6,
+      "luminance": 0
+     },
+     "oranges": {
+      "hue": 0,
+      "saturation": 9,
+      "luminance": 7
+     },
+     "yellows": {
+      "hue": -4,
+      "saturation": -8,
+      "luminance": 0
+     },
+     "greens": {
+      "hue": -12,
+      "saturation": -20,
+      "luminance": -2
+     },
+     "aquas": {
+      "hue": 0,
+      "saturation": -14,
+      "luminance": 0
+     },
+     "blues": {
+      "hue": -4,
+      "saturation": -16,
+      "luminance": 0
+     },
+     "purples": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     },
+     "magentas": {
+      "hue": 0,
+      "saturation": 0,
+      "luminance": 0
+     }
+    },
+    "curves": {
+     "luma": [
+      {
+       "x": 0,
+       "y": 9
+      },
+      {
+       "x": 64,
+       "y": 62
+      },
+      {
+       "x": 192,
+       "y": 196
+      },
+      {
+       "x": 255,
+       "y": 245
+      }
+     ],
+     "red": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "green": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ],
+     "blue": [
+      {
+       "x": 0,
+       "y": 0
+      },
+      {
+       "x": 255,
+       "y": 255
+      }
+     ]
+    },
+    "grainAmount": 12,
+    "grainSize": 25,
+    "grainRoughness": 50
    }
   },
   {
