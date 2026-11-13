@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "minAppVersion": "0.2.23",
- "appVersion": "0.2.23",
+ "minAppVersion": "0.2.24",
+ "appVersion": "0.2.24",
  "presets": [
   {
    "id": "builtin-soft-glow",
@@ -1139,8 +1139,8 @@
    "name": "Night Neon",
    "category": "Cinematic",
    "look": {
-    "glowAmount": 64,
-    "glowThreshold": 28,
+    "glowAmount": 40,
+    "glowThreshold": 50,
     "halationAmount": 38,
     "halationThreshold": 75,
     "vibrance": 26,
@@ -15051,7 +15051,8 @@
     },
     "grainAmount": 10,
     "halationAmount": 6,
-    "halationThreshold": 75
+    "halationThreshold": 75,
+    "skinProtect": 60
    }
   },
   {
@@ -16090,6 +16091,7 @@
     "tint": 3,
     "vibrance": 20,
     "saturation": 8,
+    "skinProtect": 75,
     "lumaNoiseReduction": 75,
     "colorNoiseReduction": 100,
     "halationAmount": 16,
@@ -16431,7 +16433,7 @@
       "filmGamma": 1.1,
       "printExposure": 1,
       "yFilterShift": 0,
-      "mFilterShift": 4,
+      "mFilterShift": 2,
       "grain": 1,
       "format": 35,
       "halation": 1
