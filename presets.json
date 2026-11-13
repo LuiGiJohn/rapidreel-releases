@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "minAppVersion": "0.2.22",
- "appVersion": "0.2.22",
+ "minAppVersion": "0.2.23",
+ "appVersion": "0.2.23",
  "presets": [
   {
    "id": "builtin-soft-glow",
@@ -3564,7 +3564,8 @@
      ]
     },
     "halationAmount": 10,
-    "halationThreshold": 75
+    "halationThreshold": 75,
+    "skinProtect": 40
    }
   },
   {
@@ -5842,7 +5843,8 @@
      ]
     },
     "halationAmount": 10,
-    "halationThreshold": 75
+    "halationThreshold": 75,
+    "skinProtect": 60
    }
   },
   {
@@ -6189,7 +6191,8 @@
      ]
     },
     "halationAmount": 18,
-    "halationThreshold": 75
+    "halationThreshold": 75,
+    "skinProtect": 60
    }
   },
   {
@@ -15061,7 +15064,7 @@
     "blacks": -3,
     "shadows": 0,
     "polarizer": 0,
-    "skinProtect": 50,
+    "skinProtect": 75,
     "toneMapper": "basic",
     "exposure": -0.32,
     "contrast": 19.6,
@@ -15779,8 +15782,8 @@
       "exposureEv": 0,
       "filmGamma": 0.9,
       "printExposure": 1,
-      "yFilterShift": -4,
-      "mFilterShift": 6,
+      "yFilterShift": -2,
+      "mFilterShift": 0,
       "grain": 1,
       "format": 35,
       "halation": 1
